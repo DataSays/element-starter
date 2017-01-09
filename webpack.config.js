@@ -72,6 +72,7 @@ module.exports = (options = {}) => ({
   ],
 	resolve: {
 		alias: {
+			'vue$': 'vue/dist/vue.common.js',
 			'~': resolve(__dirname, 'src')
 		}
 	},
